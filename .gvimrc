@@ -1,7 +1,7 @@
-set guioptions=egmt
+set guioptions=egt
 set lines=40
 set columns=120
-set fuoptions=maxvert,maxhorz
+
 
 
 "colorscheme freya
@@ -13,5 +13,6 @@ if has("gui_macvim")
   set lines=60 "60 is maxima on MBP
   map <leader>F :set fullscreen!<CR>
   "set gfn=Manaco:h12
+  set fuoptions=maxvert,maxhorz
 endif
 

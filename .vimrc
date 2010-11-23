@@ -49,7 +49,10 @@ map <leader>f :FuzzyFinderFile<CR>
 map <leader>b :FuzzyFinderBuffer<CR>
 
 
+map! <C-a> <ESC>0i
 map! <C-e> <ESC>A
+map! <C-f> <Right>
+map! <C-b> <Left>
 
 " mapping for tags
 map tr :!rtags -R --vi .<CR>
