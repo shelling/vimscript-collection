@@ -10,9 +10,9 @@ colorscheme railscasts
 
 if has("gui_macvim")
   set transp=8
-  set lines=60 "60 is maxima on MBP
+  set lines=50 
   map <leader>F :set fullscreen!<CR>
-  "set gfn=Manaco:h12
+  set gfn=Monaco:h13
   set fuoptions=maxvert,maxhorz
 endif
 
