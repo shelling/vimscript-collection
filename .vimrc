@@ -110,3 +110,5 @@ filetype plugin on
 "set runtimepath+=~/.vim/html
 "helptags ~/.vim/html/doc
 
+au BufRead,BufNewFile /usr/local/etc/nginx/conf/* set ft=nginx 
+au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
