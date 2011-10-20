@@ -1,3 +1,28 @@
+" vundle start
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/vendor/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'scrooloose/nerdtree'
+Bundle 'ervandew/supertab'
+Bundle 'vim-scripts/nginx.vim'
+Bundle 'jQuery'
+Bundle 'shelling/railscasts.vim'
+Bundle 'JSON.vim'
+Bundle 'applescript.vim'
+
+" vundle end
+
+filetype plugin indent on
+syntax on
+colorscheme railscasts
+
 set nocompatible
 set number
 set shiftwidth=2
@@ -13,26 +38,9 @@ set incsearch
 set hlsearch
 set ruler
 set showcmd
+set cursorline
 "set undolevels=0
 
-set cursorline
-"set lines=36
-"set columns=120
-
-syntax on
-
-" verify terminal type
-if &term == "xterm-256color"
-    " For:
-    "   iTerm.app
-  colorscheme railscasts
-elseif &term == "xterm-color"
-    " For:
-    "   Mac OS X Leopard Terminal.app
-  colorscheme blackboard
-else
-  colorscheme blackboard
-endif
 
 " conventional mapping
 map X dWWP
@@ -45,8 +53,9 @@ map <leader>Q :q!<CR>
 map <leader>c :close<CR>
 map <leader>s :set hls!<BAR>set hls?<CR>
 map <leader>e :NERDTreeToggle<CR>
-map <leader>f :FuzzyFinderFile<CR>
-map <leader>b :FuzzyFinderBuffer<CR>
+map <leader>f :FufFileWithCurrentBufferDir<CR>
+map <leader>F :FufFile<CR>
+map <leader>b :FufBuffer<CR>
 
 
 map! <C-a> <ESC>0i
@@ -86,29 +95,6 @@ nmap t0 :tablast<CR>
 nmap tn :tabnew<CR>
 nmap tj	:tabn<CR>
 nmap tk	:tabp<CR>
-
-" abbreviation for html
-ab htmltg <html></html><ESC>6h
-ab headtg <head></head><ESC>6h
-ab bodytg <body></body><ESC>6h
-ab tabletg <table></table><ESC>7h
-ab brtg <br/><ESC>
-ab hrtg <hr/><ESC>
-ab divtg <div></div><ESC>6h
-ab spantg <span></span><ESC>6h
-ab imgtg <img src=""/><ESC>3h
-
-" set for including plugins in ~/.vim/plugin
-filetype on
-filetype plugin on
-
-" textmate plugin
-"set runtimepath+=~/.vim/textmateOnly
-"set runtimepath+=~/.vim/textmateOnly/after
-
-" html plugin
-"set runtimepath+=~/.vim/html
-"helptags ~/.vim/html/doc
 
 au BufRead,BufNewFile /usr/local/etc/nginx/conf/* set ft=nginx 
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
