@@ -19,14 +19,18 @@ Bundle 'applescript.vim'
 
 " vundle end
 
+if $COLORTERM == 'gnome-terminal'
+    set term=gnome-256color
+endif
+
 filetype plugin indent on
 syntax on
 colorscheme railscasts
 
 set nocompatible
 set number
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set linebreak
 set nowrap
 set history=100
