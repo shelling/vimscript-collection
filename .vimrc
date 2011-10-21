@@ -19,7 +19,7 @@ Bundle 'applescript.vim'
 
 " vundle end
 
-if $COLORTERM == 'gnome-terminal'
+if $COLORTERM == 'true' " set within shell rc
     set term=gnome-256color
 endif
 
