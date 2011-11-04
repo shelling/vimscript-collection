@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'Markdown'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/nginx.vim'
@@ -16,6 +17,7 @@ Bundle 'jQuery'
 Bundle 'shelling/railscasts.vim'
 Bundle 'JSON.vim'
 Bundle 'applescript.vim'
+Bundle 'c9s/cascading.vim'
 
 " vundle end
 
@@ -102,3 +104,4 @@ nmap tk	:tabp<CR>
 
 au BufRead,BufNewFile /usr/local/etc/nginx/conf/* set ft=nginx 
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
+au BufRead,BufNewFile config.ru set ft=ruby
