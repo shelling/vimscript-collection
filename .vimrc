@@ -22,7 +22,7 @@ Bundle 'c9s/cascading.vim'
 " vundle end
 
 if $COLORTERM == 'true' " set within shell rc
-    set term=gnome-256color
+    set term=gnome-256color " require ncurses-term deb package
 endif
 
 filetype plugin indent on
