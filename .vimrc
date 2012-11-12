@@ -18,6 +18,7 @@ Bundle 'shelling/railscasts.vim'
 Bundle 'JSON.vim'
 Bundle 'applescript.vim'
 Bundle 'c9s/cascading.vim'
+Bundle 'tpope/vim-markdown'
 
 " vundle end
 
