@@ -106,3 +106,4 @@ nmap tk	:tabp<CR>
 au BufRead,BufNewFile /usr/local/etc/nginx/conf/* set ft=nginx 
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
 au BufRead,BufNewFile config.ru set ft=ruby
+au BufRead,BufNewFile *.hamlbars set ft=haml
