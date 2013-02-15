@@ -21,6 +21,7 @@ Bundle 'c9s/cascading.vim'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'tpope/vim-markdown'
 Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'kien/ctrlp.vim'
 
 " vundle end
 
@@ -109,3 +110,5 @@ au BufRead,BufNewFile /usr/local/etc/nginx/conf/* set ft=nginx
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
 au BufRead,BufNewFile config.ru set ft=ruby
 au BufRead,BufNewFile *.hamlbars set ft=haml
+
+let g:ctrlp_cmd = 'CtrlPMixed'
