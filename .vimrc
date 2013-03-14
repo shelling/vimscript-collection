@@ -22,6 +22,7 @@ Bundle 'Rip-Rip/clang_complete'
 Bundle 'tpope/vim-markdown'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kien/ctrlp.vim'
+Bundle 'rodjek/vim-puppet'
 
 " vundle end
 
