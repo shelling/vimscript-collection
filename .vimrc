@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'ShowPairs'
 Bundle 'Markdown'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
@@ -23,6 +24,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'rodjek/vim-puppet'
+Bundle 'Lokaltog/vim-powerline'
 
 " vundle end
 
