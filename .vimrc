@@ -40,8 +40,8 @@ colorscheme railscasts
 
 set nocompatible
 set number
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set linebreak
 set nowrap
 set history=100
