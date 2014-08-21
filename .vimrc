@@ -119,3 +119,4 @@ au BufRead,BufNewFile *.rabl set ft=ruby
 au BufRead,BufNewFile *.hamlbars set ft=haml
 
 let g:ctrlp_cmd = 'CtrlPMixed'
+let g:ctrlp_custom_ignore = 'node_modules'
