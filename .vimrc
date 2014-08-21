@@ -25,6 +25,8 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'rodjek/vim-puppet'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'tpope/vim-surround'
+Bundle 'nanki/treetop.vim'
 
 " vundle end
 
