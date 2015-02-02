@@ -27,6 +27,8 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-surround'
 Bundle 'nanki/treetop.vim'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'gkz/vim-ls'
 
 " vundle end
 
@@ -54,6 +56,8 @@ set hlsearch
 set ruler
 set showcmd
 set cursorline
+set binary
+set noeol
 "set undolevels=0
 
 
