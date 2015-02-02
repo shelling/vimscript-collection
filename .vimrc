@@ -29,6 +29,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'nanki/treetop.vim'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'gkz/vim-ls'
+Bundle 'kchmck/vim-coffee-script'
 
 " vundle end
 
